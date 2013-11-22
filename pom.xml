@@ -47,14 +47,6 @@
                 <scope>compile</scope>
             </dependency>
 
-            <dependency>
-                <groupId>com.oracle.javafx</groupId>
-                <artifactId>javafx</artifactId>
-                <version>2.2</version>
-                <systemPath>${fx.home}/jfxrt.jar</systemPath>
-                <scope>system</scope>
-            </dependency>
-
             <!-- Weld Container -->
             <dependency>
                 <groupId>org.jboss.weld</groupId>
