@@ -5,8 +5,9 @@ import java.util.Date;
 import java.util.List;
 import java.util.stream.Stream;
 
-import org.rapidpm.demo.entwicklerpress.shortcut.java8_streams.model.Pair;
-import org.rapidpm.demo.entwicklerpress.shortcut.java8_streams.tools.PairListGenerator;
+import org.rapidpm.demo.entwicklerpress.shortcut.java8_streams.PairListGenerator;
+import org.rapidpm.demo.entwicklerpress.shortcut.java8_streams.Pair;
+
 
 /**
  * Created by Sven Ruppert on 22.11.13.

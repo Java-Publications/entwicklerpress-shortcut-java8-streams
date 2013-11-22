@@ -1,11 +1,10 @@
-package org.rapidpm.demo.entwicklerpress.shortcut.java8_streams.tools;
+package org.rapidpm.demo.entwicklerpress.shortcut.java8_streams;
 
 import java.util.List;
 import java.util.Random;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import org.rapidpm.demo.entwicklerpress.shortcut.java8_streams.model.Pair;
 
 /**
  * Created by Sven Ruppert on 15.11.13.

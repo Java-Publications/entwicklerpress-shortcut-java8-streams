@@ -1,4 +1,4 @@
-package org.rapidpm.demo.entwicklerpress.shortcut.java8_streams.tools;
+package org.rapidpm.demo.entwicklerpress.shortcut.java8_streams;
 
 import java.util.List;
 import java.util.Random;

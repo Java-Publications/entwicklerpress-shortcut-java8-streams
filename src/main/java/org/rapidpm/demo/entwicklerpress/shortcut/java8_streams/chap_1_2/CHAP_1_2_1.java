@@ -3,8 +3,8 @@ package org.rapidpm.demo.entwicklerpress.shortcut.java8_streams.chap_1_2;
 import java.util.List;
 import java.util.function.Consumer;
 
-import org.rapidpm.demo.entwicklerpress.shortcut.java8_streams.model.Pair;
-import org.rapidpm.demo.entwicklerpress.shortcut.java8_streams.tools.PairListGenerator;
+import org.rapidpm.demo.entwicklerpress.shortcut.java8_streams.Pair;
+import org.rapidpm.demo.entwicklerpress.shortcut.java8_streams.PairListGenerator;
 
 /**
  * Created by Sven Ruppert on 22.11.13.

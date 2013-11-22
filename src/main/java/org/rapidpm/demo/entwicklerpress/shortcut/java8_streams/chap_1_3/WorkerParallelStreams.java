@@ -5,7 +5,7 @@ import java.util.Random;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import org.rapidpm.demo.entwicklerpress.shortcut.java8_streams.tools.WorkLoadGenerator;
+import org.rapidpm.demo.entwicklerpress.shortcut.java8_streams.WorkLoadGenerator;
 
 /**
  * Created by Sven Ruppert on 11.11.13.

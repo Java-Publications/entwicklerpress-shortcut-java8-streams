@@ -1,4 +1,4 @@
-package org.rapidpm.demo.entwicklerpress.shortcut.java8_streams.tools;
+package org.rapidpm.demo.entwicklerpress.shortcut.java8_streams;
 
 /**
  * Created by Sven Ruppert on 11.11.13.

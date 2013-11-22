@@ -13,8 +13,8 @@ import javafx.scene.chart.LineChart;
 import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.XYChart;
 import javafx.stage.Stage;
-import org.rapidpm.demo.entwicklerpress.shortcut.java8_streams.tools.TimeCounter;
-import org.rapidpm.demo.entwicklerpress.shortcut.java8_streams.tools.TimeCounterFormatter;
+import org.rapidpm.demo.entwicklerpress.shortcut.java8_streams.TimeCounter;
+import org.rapidpm.demo.entwicklerpress.shortcut.java8_streams.TimeCounterFormatter;
 
 /**
  * Created by Sven Ruppert on 08.11.13.

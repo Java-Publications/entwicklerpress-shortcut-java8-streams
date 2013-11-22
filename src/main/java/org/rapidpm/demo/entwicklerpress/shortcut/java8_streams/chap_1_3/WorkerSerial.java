@@ -3,8 +3,8 @@ package org.rapidpm.demo.entwicklerpress.shortcut.java8_streams.chap_1_3;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.rapidpm.demo.entwicklerpress.shortcut.java8_streams.tools.DemoValueGenerator;
-import org.rapidpm.demo.entwicklerpress.shortcut.java8_streams.tools.WorkLoadGenerator;
+import org.rapidpm.demo.entwicklerpress.shortcut.java8_streams.DemoValueGenerator;
+import org.rapidpm.demo.entwicklerpress.shortcut.java8_streams.WorkLoadGenerator;
 
 /**
  * Created by Sven Ruppert on 11.11.13.

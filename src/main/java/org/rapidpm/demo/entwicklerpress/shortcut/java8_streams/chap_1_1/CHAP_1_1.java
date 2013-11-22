@@ -7,8 +7,9 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-import org.rapidpm.demo.entwicklerpress.shortcut.java8_streams.model.Pair;
-import org.rapidpm.demo.entwicklerpress.shortcut.java8_streams.tools.PairListGenerator;
+import org.rapidpm.demo.entwicklerpress.shortcut.java8_streams.Pair;
+import org.rapidpm.demo.entwicklerpress.shortcut.java8_streams.PairListGenerator;
+
 
 /**
  * Created by Sven Ruppert on 13.11.13.
