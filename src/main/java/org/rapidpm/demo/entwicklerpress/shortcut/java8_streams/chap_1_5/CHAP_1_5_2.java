@@ -1,4 +1,4 @@
-package org.rapidpm.demo.entwicklerpress.shortcut.java8_streams.unsorted_yet;
+package org.rapidpm.demo.entwicklerpress.shortcut.java8_streams.chap_1_5;
 
 
 import java.util.List;
@@ -10,20 +10,27 @@ import java.util.stream.Stream;
 /**
  * Created by Sven Ruppert on 18.11.13.
  */
-public class Part07 {
+public class CHAP_1_5_2 {
 
+
+    /**
+     *         final Stream<Long> fibStream = makeFibStream(10);
+     fibStream.forEachOrdered(System.out::println);
+
+     System.out.println("isPrime(7) = " + isPrime1(7));
+     System.out.println("isPrimeOld(7) = " + isPrime2(7));
+     * @param args
+     */
 
     public static void main(String[] args) {
+
+
+
         final Stream<Long> fibStream = makeFibStream(10);
         fibStream.forEachOrdered(System.out::println);
 
-        System.out.println("isPrime(7) = " + isPrime(7));
-
     }
 
-    public static boolean isPrime(int n) {
-        return n >= 2 && IntStream.rangeClosed(2, (int) (Math.sqrt(n))).allMatch((d) -> n % d != 0);
-    }
 
     public static Stream<Long> makeFibStream() {
         return(Stream.generate(new FibonacciSupplier()));
