@@ -11,9 +11,7 @@ import java.util.List;
  */
 public class CHAP_1_5_3 {
     public static void main(String[] args) {
-
         final List<List<Integer>> matrix = new ArrayList<>();
-
         matrix.add(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9));
         matrix.add(Arrays.asList(1,2,3,4,5,66,7,8,9)); //hier eine 66
         matrix.add(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9));

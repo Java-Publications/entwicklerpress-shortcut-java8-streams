@@ -21,7 +21,6 @@ public class WorkerParallelExecutorService implements Worker {
         this.executorService = executorService;
     }
 
-
     @Override
     public List<List<Integer>> generateDemoValueMatrix() {
         final List<Task> taskList = new ArrayList<>();

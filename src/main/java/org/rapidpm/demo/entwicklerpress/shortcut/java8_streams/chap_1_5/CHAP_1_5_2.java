@@ -23,12 +23,8 @@ public class CHAP_1_5_2 {
      */
 
     public static void main(String[] args) {
-
-
-
         final Stream<Long> fibStream = makeFibStream(10);
         fibStream.forEachOrdered(System.out::println);
-
     }
 
 

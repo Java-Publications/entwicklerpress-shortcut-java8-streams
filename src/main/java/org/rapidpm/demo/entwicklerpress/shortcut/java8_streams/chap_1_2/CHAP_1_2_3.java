@@ -16,8 +16,6 @@ public class CHAP_1_2_3 {
 
     public static void main(String[] args) {
         final List<Pair> generateDemoValues = new PairListGenerator(){}.generateDemoValues();
-
-
         //map from Point to DemoElements
         final Stream<DemoElement> demoElementStream = generateDemoValues.stream().map(v -> {
             final String value = v.getValue();
@@ -26,14 +24,7 @@ public class CHAP_1_2_3 {
             d.setValue(Base64.getEncoder().encodeToString(value.getBytes()));
             return d;
         });
-
-
         final Stream<Pair> filteredPairStream = generateDemoValues.stream().filter(v -> v.getId() % 2 == 0);
-
-
-
-
-
 
     }
 

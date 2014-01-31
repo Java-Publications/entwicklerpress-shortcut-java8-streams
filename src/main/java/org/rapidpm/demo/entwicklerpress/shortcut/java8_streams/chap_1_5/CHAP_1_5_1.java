@@ -31,5 +31,4 @@ public class CHAP_1_5_1 {
         }
         return true;
     }
-
 }
